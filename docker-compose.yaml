@@ -34,6 +34,7 @@ services:
     working_dir: /var/www/html/wordpress
     volumes:
       - "./website/wordpress:/var/www/html/wordpress"
+      - "./php-conf/upload.ini:/usr/local/etc/php/conf.d/upload.ini"
     networks:
       - app-network
 
