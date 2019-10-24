@@ -31,6 +31,7 @@ services:
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: wordpress
       WORDPRESS_DB_NAME: wordpress
+      PHP_ENV: DEV
     working_dir: /var/www/html/wordpress
     volumes:
       - "./website/wordpress:/var/www/html/wordpress"
