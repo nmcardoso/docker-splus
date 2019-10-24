@@ -2,3 +2,4 @@
 !nginx-conf/
 !docker-compose.yaml 
 !.gitignore
+!php-conf/

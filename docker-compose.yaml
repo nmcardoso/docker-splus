@@ -49,6 +49,7 @@ services:
     volumes:
       - "./website:/var/www/html"
       - "./nginx-conf:/etc/nginx/conf.d"
+      - "./php-conf/php.ini:/etc/php.ini"
     networks:
       - app-network
 
